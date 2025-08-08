@@ -247,6 +247,10 @@ S390X_BLOCKLIST = [
     "inductor/test_config",
     "test_public_bindings",
     "test_testing",
+    # depend on z3-solver
+    "fx/test_z3_gradual_types",
+    "test_fx_experimental",
+    "test_sympy_utils",
 ]
 
 XPU_BLOCKLIST = [
